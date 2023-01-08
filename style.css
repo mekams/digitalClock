@@ -34,6 +34,12 @@ html body {
     border-color: black;
 }
 
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
 p:hover{
     color: rgba(251, 92, 102, 0.609);
 }
@@ -56,5 +62,4 @@ p:hover{
         font-size:65px;
         font-weight:700;
     }
-   
 }
