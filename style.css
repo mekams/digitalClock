@@ -1,6 +1,11 @@
 html body {
     background-color: aquamarine;
     background-image: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);
+    padding: 0px;
+    margin:0px;
+}
+.container{
+    height:90%
 }
 #heading{
     background-color: rgb(200, 198, 94);
@@ -34,9 +39,10 @@ html body {
     border-color: black;
 }
 
-footer p{
+footer{
     background-color: black;
     color: white;
+    height:5%;
     text-align: center;
 }
 
