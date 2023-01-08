@@ -3,9 +3,10 @@ html body {
     background-image: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);
     padding: 0px;
     margin:0px;
+    box-sizing: border-box;
 }
 .container{
-    height:90%
+    height:100%
 }
 #heading{
     background-color: rgb(200, 198, 94);
