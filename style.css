@@ -1,6 +1,6 @@
 html body {
     background-color: aquamarine;
-    background-image: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet);
+    background-image: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);
 }
 #heading{
     background-color: rgb(200, 198, 94);
@@ -36,4 +36,25 @@ html body {
 
 p:hover{
     color: rgba(251, 92, 102, 0.609);
+}
+
+@media (width < 1192px) {
+    #heading,#clock,#date{
+    margin:20px 40px;
+    padding:25px;
+    }
+
+    #heading{
+        font-size: 60px;
+        font-weight: 900;
+    }
+    #clock{
+        font-size: 70px;
+        font-weight: 750;
+    }
+    #date{
+        font-size:65px;
+        font-weight:700;
+    }
+   
 }
