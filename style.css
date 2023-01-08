@@ -1,0 +1,39 @@
+html body {
+    background-color: aquamarine;
+    background-image: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet);
+}
+#heading{
+    background-color: rgb(200, 198, 94);
+    margin:40px 300px 15px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    border: 30px;
+    border-radius: 100px;
+    border-color: black;
+    border-style:double;
+}
+#clock{
+    background-color: rgb(48, 99, 134);
+    margin:0px 300px;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 750;
+    border: 30px;
+    border-radius: 100px;
+    border-color: black;
+}
+#date{
+    background-color: rgb(93, 125, 98);
+    margin:15px 300px;
+    font-size: 90px;
+    text-align: center;
+    font-weight: 700;
+    border: 30px;
+    border-radius: 100px;
+    border-color: black;
+}
+
+p:hover{
+    color: rgba(251, 92, 102, 0.609);
+}
